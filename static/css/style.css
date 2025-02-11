@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(rgba(54, 54, 54, 0.7), rgba(54, 54, 54, 0.7)), url("/imgs/loginbackground.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmin;
+    color: #fbf7de;
+}
+.img-col{
+    margin-top: 20px;
+}
+.logo-img {
+    width: 25%;
+}
+.login-row{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card-col{
+    display: flex;
+    justify-content: center;
+}
+.login-card{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: none;
+    color: #fbf7de;
+    width: 70%;
+    padding-top: 20px;
+    align-items: center;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+}
+.card-header {
+    border-bottom: 4px solid #073a19;
+    width: 80%;
+
+}
+.login-input {
+    background-color:#dadada;
+}
+.btn{
+    background-color: #073a19;
+    color: #faf4df;
+    width: 25%;
+}
+.title-col{
+    align-items: center;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    text-align: center;
+}
+.title-sec{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin: 50px 0;
+    font-weight: bold;
+}
+.caption {
+    width: 65%;
+    line-height: 2;
+}
+
+.input-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 30px;
+}
+.form-label{
+    width: 70%;
+}
